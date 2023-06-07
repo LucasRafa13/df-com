@@ -1,0 +1,33 @@
+.cover {
+  min-height: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2018/05/13/20/21/lake-3397784_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #00000052;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.cover > div {
+  text-align: center;
+}
+
+.cover h1,
+.cover p {
+  margin-bottom: 10px;
+}
+
+.cover button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  font-weight: lighter;
+  cursor: pointer;
+}
